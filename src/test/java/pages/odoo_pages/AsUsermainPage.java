@@ -15,7 +15,9 @@ public class AsUsermainPage {
 
     @FindBy(xpath = "//a[@data-menu='347']")
     public WebElement InventoryButtonVerify;
-
+    // inventory asjustments button
     @FindBy(xpath = "//a[@data-menu='370']")
     public WebElement InventoryAdjustmentsButton;
+
+
 }

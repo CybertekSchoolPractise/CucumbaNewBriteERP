@@ -15,6 +15,7 @@ public class BriteERPMainPage {
     @FindBy(xpath = "//a[@data-menu='347']")
     public WebElement InventoryModuleDisplayVerify;
 
+    // inventory module button
     @FindBy(xpath = "//a[@data-menu='347']")
     public WebElement InventoryModuleButton;
 

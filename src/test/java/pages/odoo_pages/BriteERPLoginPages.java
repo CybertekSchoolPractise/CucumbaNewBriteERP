@@ -15,8 +15,9 @@ public class BriteERPLoginPages {
 
     @FindBy(css = "#password")
     public WebElement passwordInputBox;
-
+    // submit button
     @FindBy(xpath = "//button[.='Log in']")
     public WebElement submitButton;
+
 
 }

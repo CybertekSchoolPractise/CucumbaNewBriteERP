@@ -14,6 +14,7 @@ Feature:As a Manager I have to be able use, manage Intentory Adjustments which i
     And As a manager, requester should be able to click all three buttons
 
 
+
   Scenario: Search functionality for managers
 
     Given As a Manager, i am login page, I should be able to see and fill info in login box

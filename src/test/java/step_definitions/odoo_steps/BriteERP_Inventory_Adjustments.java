@@ -158,6 +158,8 @@ public class BriteERP_Inventory_Adjustments {
         asUsermainPage.InventoryAdjustmentsButton.click();
 
 
+
+
     }
 
     @When("as a user i should click the search button to type and to find exact products")

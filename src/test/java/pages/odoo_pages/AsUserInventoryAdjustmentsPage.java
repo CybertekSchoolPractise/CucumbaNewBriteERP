@@ -21,7 +21,7 @@ public class AsUserInventoryAdjustmentsPage {
 
     @FindBy(xpath = "//button[@class='btn btn-sm btn-primary']")
     public WebElement alertAcceptButton;
-
+    // cancel button
     @FindBy(xpath = "//button[.='Cancel']")
     public WebElement cancelButtonPress;
 }

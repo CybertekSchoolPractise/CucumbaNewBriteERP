@@ -33,6 +33,7 @@ public class Hukes {
             byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
             scenario.embed(screenshot, "image/png");
 
+
         }
         Driver.closeDriver();
     }
