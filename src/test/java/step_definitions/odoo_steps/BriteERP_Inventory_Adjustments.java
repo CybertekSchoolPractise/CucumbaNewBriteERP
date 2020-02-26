@@ -142,7 +142,7 @@ public class BriteERP_Inventory_Adjustments {
         asUserInventoryAdjustmentsPage.searchBoxVerify.click();
 
     }
-
+    // so, guys lets finish project !
     @Given("as a user when i login and navigate to inventory adjustments to be able to see search button")
     public void as_a_user_when_i_login_and_navigate_to_inventory_adjustments_to_be_able_to_see_search_button() {
         Driver.getDriver().get(Config.getProperty("inventoryUrl"));
